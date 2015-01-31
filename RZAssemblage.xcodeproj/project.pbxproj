@@ -10,16 +10,17 @@
 		AB0279061A789FA600AF66DB /* MutatableAssemblageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0279051A789FA600AF66DB /* MutatableAssemblageTableViewController.m */; };
 		AB05610D1A7B25D200B5C17E /* RZFRCAssemblage.h in Headers */ = {isa = PBXBuildFile; fileRef = AB05610B1A7B25D200B5C17E /* RZFRCAssemblage.h */; };
 		AB05610E1A7B25D200B5C17E /* RZFRCAssemblage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB05610C1A7B25D200B5C17E /* RZFRCAssemblage.m */; };
-		ABAC82901A7B339F001CDC27 /* TestChildEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC828B1A7B339F001CDC27 /* TestChildEntity.m */; };
-		ABAC82911A7B339F001CDC27 /* TestChildEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC828B1A7B339F001CDC27 /* TestChildEntity.m */; };
-		ABAC82921A7B339F001CDC27 /* TestParentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC828D1A7B339F001CDC27 /* TestParentEntity.m */; };
-		ABAC82931A7B339F001CDC27 /* TestParentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC828D1A7B339F001CDC27 /* TestParentEntity.m */; };
-		ABAC82941A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABAC828E1A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld */; };
-		ABAC82951A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABAC828E1A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld */; };
 		ABAC82981A7B3737001CDC27 /* NSIndexPath+RZAssemblage.h in Headers */ = {isa = PBXBuildFile; fileRef = ABAC82961A7B3737001CDC27 /* NSIndexPath+RZAssemblage.h */; };
 		ABAC82991A7B3737001CDC27 /* NSIndexPath+RZAssemblage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82971A7B3737001CDC27 /* NSIndexPath+RZAssemblage.m */; };
 		ABAC829C1A7B3CC0001CDC27 /* RZFlatAssemblage.h in Headers */ = {isa = PBXBuildFile; fileRef = ABAC829A1A7B3CC0001CDC27 /* RZFlatAssemblage.h */; };
 		ABAC829D1A7B3CC0001CDC27 /* RZFlatAssemblage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC829B1A7B3CC0001CDC27 /* RZFlatAssemblage.m */; };
+		ABAC82BF1A7C7474001CDC27 /* RZCollectionListFetchOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82A61A7C7474001CDC27 /* RZCollectionListFetchOrderTests.m */; };
+		ABAC82C01A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82A71A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodeld */; };
+		ABAC82C21A7C7474001CDC27 /* TestChildEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82AC1A7C7474001CDC27 /* TestChildEntity.m */; };
+		ABAC82C31A7C7474001CDC27 /* TestParentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82AE1A7C7474001CDC27 /* TestParentEntity.m */; };
+		ABAC82C71A7C7474001CDC27 /* RZCollectionListTableViewDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82B51A7C7474001CDC27 /* RZCollectionListTableViewDataSourceTests.m */; };
+		ABAC82C81A7C7474001CDC27 /* RZCollectionListTestModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82B71A7C7474001CDC27 /* RZCollectionListTestModelObject.m */; };
+		ABAC82C91A7C7474001CDC27 /* RZCollectionListTestsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC82B91A7C7474001CDC27 /* RZCollectionListTestsBase.m */; };
 		ABADD3481A776C7C00397031 /* RZAssemblagePublic.h in Headers */ = {isa = PBXBuildFile; fileRef = ABADD3471A776C7C00397031 /* RZAssemblagePublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABADD34E1A776C7C00397031 /* RZAssemblage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABADD3421A776C7C00397031 /* RZAssemblage.framework */; };
 		ABADD3551A776C7C00397031 /* RZAssemblageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABADD3541A776C7C00397031 /* RZAssemblageTests.m */; };
@@ -62,15 +63,25 @@
 		AB0279051A789FA600AF66DB /* MutatableAssemblageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutatableAssemblageTableViewController.m; sourceTree = "<group>"; };
 		AB05610B1A7B25D200B5C17E /* RZFRCAssemblage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZFRCAssemblage.h; sourceTree = "<group>"; };
 		AB05610C1A7B25D200B5C17E /* RZFRCAssemblage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZFRCAssemblage.m; sourceTree = "<group>"; };
-		ABAC828A1A7B339F001CDC27 /* TestChildEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestChildEntity.h; sourceTree = "<group>"; };
-		ABAC828B1A7B339F001CDC27 /* TestChildEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestChildEntity.m; sourceTree = "<group>"; };
-		ABAC828C1A7B339F001CDC27 /* TestParentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestParentEntity.h; sourceTree = "<group>"; };
-		ABAC828D1A7B339F001CDC27 /* TestParentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestParentEntity.m; sourceTree = "<group>"; };
-		ABAC828F1A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RZAssemblageDemo.xcdatamodel; sourceTree = "<group>"; };
 		ABAC82961A7B3737001CDC27 /* NSIndexPath+RZAssemblage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+RZAssemblage.h"; sourceTree = "<group>"; };
 		ABAC82971A7B3737001CDC27 /* NSIndexPath+RZAssemblage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+RZAssemblage.m"; sourceTree = "<group>"; };
 		ABAC829A1A7B3CC0001CDC27 /* RZFlatAssemblage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZFlatAssemblage.h; sourceTree = "<group>"; };
 		ABAC829B1A7B3CC0001CDC27 /* RZFlatAssemblage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZFlatAssemblage.m; sourceTree = "<group>"; };
+		ABAC82A51A7C7474001CDC27 /* RZCollectionListFetchOrderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCollectionListFetchOrderTests.h; sourceTree = "<group>"; };
+		ABAC82A61A7C7474001CDC27 /* RZCollectionListFetchOrderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCollectionListFetchOrderTests.m; sourceTree = "<group>"; };
+		ABAC82A81A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RZCollectionListFetchTestModel.xcdatamodel; sourceTree = "<group>"; };
+		ABAC82A91A7C7474001CDC27 /* RZFetchedCollectionListComboTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZFetchedCollectionListComboTests.h; sourceTree = "<group>"; };
+		ABAC82AA1A7C7474001CDC27 /* RZFetchedCollectionListComboTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZFetchedCollectionListComboTests.m; sourceTree = "<group>"; };
+		ABAC82AB1A7C7474001CDC27 /* TestChildEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestChildEntity.h; sourceTree = "<group>"; };
+		ABAC82AC1A7C7474001CDC27 /* TestChildEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestChildEntity.m; sourceTree = "<group>"; };
+		ABAC82AD1A7C7474001CDC27 /* TestParentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestParentEntity.h; sourceTree = "<group>"; };
+		ABAC82AE1A7C7474001CDC27 /* TestParentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestParentEntity.m; sourceTree = "<group>"; };
+		ABAC82B41A7C7474001CDC27 /* RZCollectionListTableViewDataSourceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCollectionListTableViewDataSourceTests.h; sourceTree = "<group>"; };
+		ABAC82B51A7C7474001CDC27 /* RZCollectionListTableViewDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCollectionListTableViewDataSourceTests.m; sourceTree = "<group>"; };
+		ABAC82B61A7C7474001CDC27 /* RZCollectionListTestModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCollectionListTestModelObject.h; sourceTree = "<group>"; };
+		ABAC82B71A7C7474001CDC27 /* RZCollectionListTestModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCollectionListTestModelObject.m; sourceTree = "<group>"; };
+		ABAC82B81A7C7474001CDC27 /* RZCollectionListTestsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZCollectionListTestsBase.h; sourceTree = "<group>"; };
+		ABAC82B91A7C7474001CDC27 /* RZCollectionListTestsBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZCollectionListTestsBase.m; sourceTree = "<group>"; };
 		ABADD3421A776C7C00397031 /* RZAssemblage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RZAssemblage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABADD3461A776C7C00397031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABADD3471A776C7C00397031 /* RZAssemblagePublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZAssemblagePublic.h; sourceTree = "<group>"; };
@@ -125,6 +136,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABAC82A11A7C7474001CDC27 /* RZCollectionList-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABAC82B81A7C7474001CDC27 /* RZCollectionListTestsBase.h */,
+				ABAC82B91A7C7474001CDC27 /* RZCollectionListTestsBase.m */,
+				ABAC82A41A7C7474001CDC27 /* FetchedResultsTests */,
+				ABAC82B41A7C7474001CDC27 /* RZCollectionListTableViewDataSourceTests.h */,
+				ABAC82B51A7C7474001CDC27 /* RZCollectionListTableViewDataSourceTests.m */,
+				ABAC82B61A7C7474001CDC27 /* RZCollectionListTestModelObject.h */,
+				ABAC82B71A7C7474001CDC27 /* RZCollectionListTestModelObject.m */,
+			);
+			path = "RZCollectionList-DemoTests";
+			sourceTree = "<group>";
+		};
+		ABAC82A41A7C7474001CDC27 /* FetchedResultsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABAC82A51A7C7474001CDC27 /* RZCollectionListFetchOrderTests.h */,
+				ABAC82A61A7C7474001CDC27 /* RZCollectionListFetchOrderTests.m */,
+				ABAC82A71A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodeld */,
+				ABAC82A91A7C7474001CDC27 /* RZFetchedCollectionListComboTests.h */,
+				ABAC82AA1A7C7474001CDC27 /* RZFetchedCollectionListComboTests.m */,
+				ABAC82AB1A7C7474001CDC27 /* TestChildEntity.h */,
+				ABAC82AC1A7C7474001CDC27 /* TestChildEntity.m */,
+				ABAC82AD1A7C7474001CDC27 /* TestParentEntity.h */,
+				ABAC82AE1A7C7474001CDC27 /* TestParentEntity.m */,
+			);
+			path = FetchedResultsTests;
+			sourceTree = "<group>";
+		};
 		ABADD3381A776C7C00397031 = {
 			isa = PBXGroup;
 			children = (
@@ -180,11 +221,7 @@
 		ABADD3511A776C7C00397031 /* RZAssemblageTests */ = {
 			isa = PBXGroup;
 			children = (
-				ABAC828A1A7B339F001CDC27 /* TestChildEntity.h */,
-				ABAC828B1A7B339F001CDC27 /* TestChildEntity.m */,
-				ABAC828C1A7B339F001CDC27 /* TestParentEntity.h */,
-				ABAC828D1A7B339F001CDC27 /* TestParentEntity.m */,
-				ABAC828E1A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld */,
+				ABAC82A11A7C7474001CDC27 /* RZCollectionList-DemoTests */,
 				ABADD3541A776C7C00397031 /* RZAssemblageTests.m */,
 				ABADD3521A776C7C00397031 /* Supporting Files */,
 			);
@@ -386,10 +423,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABAC82921A7B339F001CDC27 /* TestParentEntity.m in Sources */,
+				ABAC82C01A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodeld in Sources */,
+				ABAC82BF1A7C7474001CDC27 /* RZCollectionListFetchOrderTests.m in Sources */,
+				ABAC82C91A7C7474001CDC27 /* RZCollectionListTestsBase.m in Sources */,
+				ABAC82C31A7C7474001CDC27 /* TestParentEntity.m in Sources */,
 				ABADD3551A776C7C00397031 /* RZAssemblageTests.m in Sources */,
-				ABAC82941A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld in Sources */,
-				ABAC82901A7B339F001CDC27 /* TestChildEntity.m in Sources */,
+				ABAC82C21A7C7474001CDC27 /* TestChildEntity.m in Sources */,
+				ABAC82C81A7C7474001CDC27 /* RZCollectionListTestModelObject.m in Sources */,
+				ABAC82C71A7C7474001CDC27 /* RZCollectionListTableViewDataSourceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +439,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABADD3B51A787F1900397031 /* MasterViewController.m in Sources */,
-				ABAC82931A7B339F001CDC27 /* TestParentEntity.m in Sources */,
-				ABAC82951A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld in Sources */,
 				AB0279061A789FA600AF66DB /* MutatableAssemblageTableViewController.m in Sources */,
 				ABADD3AF1A787F1900397031 /* AppDelegate.m in Sources */,
-				ABAC82911A7B339F001CDC27 /* TestChildEntity.m in Sources */,
 				ABADD3AC1A787F1900397031 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,13 +690,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ABAC828E1A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodeld */ = {
+		ABAC82A71A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				ABAC828F1A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodel */,
+				ABAC82A81A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodel */,
 			);
-			currentVersion = ABAC828F1A7B339F001CDC27 /* RZAssemblageDemo.xcdatamodel */;
-			path = RZAssemblageDemo.xcdatamodeld;
+			currentVersion = ABAC82A81A7C7474001CDC27 /* RZCollectionListFetchTestModel.xcdatamodel */;
+			path = RZCollectionListFetchTestModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

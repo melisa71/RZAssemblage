@@ -21,7 +21,8 @@
 - (void)exchangeObjectAtIndex:(NSUInteger)idx1 withObjectAtIndex:(NSUInteger)idx2;
 
 // Remote change notification
-- (void)notifyObjectUpdate:(id)object;
+- (void)notifyUpdateOfObject:(id)object;
+- (void)notifyUpdateAtIndex:(NSUInteger)index;
 
 // Index Path mutation.
 // These methods will assert if the index path lands on a non-mutable assemblage.

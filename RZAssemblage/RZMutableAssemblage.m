@@ -81,15 +81,23 @@
     [self didEndUpdatesForEnsemble:self];
 }
 
-- (void)notifyObjectUpdate:(id)anObject
+- (void)notifyUpdateOfObject:(id)anObject;
 {
     NSParameterAssert(anObject);
     NSUInteger index = [self.store indexOfObject:anObject];
     NSAssert(index != NSNotFound, @"Object is not part of assemblage");
+    [self notifyUpdateAtIndex:index];
+}
+
+- (void)notifyUpdateAtIndex:(NSUInteger)index;
+{
+    id anObject = [self objectAtIndex:index];
     [self willBeginUpdatesForAssemblage:self];
     [self.delegate assemblage:self didUpdateObject:anObject atIndexPath:[NSIndexPath indexPathWithIndex:index]];
     [self didEndUpdatesForEnsemble:self];
+
 }
+
 
 #pragma mark - Index Path Mutation
 
